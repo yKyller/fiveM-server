@@ -1,0 +1,5 @@
+# ------------------------------------------------ #
+Suporte: https://www.fluxanticheat.com/
+# ------------------------------------------------ #
+
+Se você adquiriu o plano PREMIUM, você deverá instalar os 2 resources premium, discord-screenshot e screenshot-basic, você não poderá mudar o nome dos mesmos.

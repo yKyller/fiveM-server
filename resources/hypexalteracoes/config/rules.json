@@ -1,0 +1,24 @@
+{
+    "teleport":         { "prevent": true, "rollback": true, "punishment": "ban" },
+    "invisibility":     { "prevent": true, "rollback": true, "punishment": "kick" },
+
+    "godmode":          { "prevent": true, "rollback": true, "punishment": "kick" },
+    "shutdown":         { "prevent": true, "rollback": true, "punishment": "ban" },
+    "spawn_weapons":    { "prevent": true, "rollback": true, "punishment": "ban" },
+    "superjump":        { "prevent": true, "rollback": true, "punishment": "kick" },
+    "spawn_vehicles":   { "prevent": true, "rollback": true, "punishment": "ban" },
+
+    "spawn_armour":     { "prevent": true, "rollback": true, "punishment": "ban" },
+    "spawn_explosions": { "prevent": true, "rollback": true, "punishment": "ban" },
+    "spawn_objects":    { "prevent": true, "rollback": true, "punishment": "ban" },
+    "spawn_ammo":       { "prevent": true, "rollback": true, "punishment": "ban" },
+    "spawn_health":     { "prevent": true, "rollback": true, "punishment": "ban" },
+    "vehicle_weapons":  { "prevent": true, "rollback": true, "punishment": "ban" },
+    "spawn_npcs":       { "prevent": true, "rollback": true, "punishment": "ban" },
+    "spawner_menu":     { "prevent": true, "rollback": true, "punishment": "ban" },
+    "spectator":        { "prevent": true, "rollback": true, "punishment": "ban" },
+    "speedhack":        { "prevent": true, "rollback": true, "punishment": "ban" },
+    "wallhack":         { "prevent": true, "rollback": true, "punishment": "ban" },
+    "injection":        { "prevent": true, "rollback": true, "punishment": "ban" },
+    "aimbot":           { "prevent": true, "rollback": true, "punishment": "ban" }
+}

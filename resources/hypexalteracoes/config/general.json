@@ -1,0 +1,16 @@
+{
+    "permissions": {
+       "bypass": "flux.bypass",
+       "admin": "flux.admin"
+    },
+    "webhooks": {
+      "log": "https://discord.com/api/webhooks/821174257756405770/YB-Yhb7Eggqf03UTpqsMrHuJKopZqDHOEZo_3k5aR_21rN0PY79iGNMR9NyFldzMAeVw",
+      "kick": "https://discord.com/api/webhooks/821174319261548575/xI9HpKl60wsQTO6JViLBs8zXMYoz2j5DUWm9ad7vPLdUlVDiZrFgJxN8UOaBWsenv-8y",
+      "ban": "https://discord.com/api/webhooks/821174371934666802/zfAFTeE25uNdXFgdX1CXF_IrjUW77V2nwUVIVyuFwczjxfNFIe8vTxIxvoUzsOtrv0Sp"
+    },
+    "messages": {
+      "kick": "Você foi expulso automaticamente por suspeita de trapaça.",
+      "ban": "Você foi banido automaticamente por trapaça.\nCaso não ache justo entre em contato: Kyller#0001"
+    }
+ }
+ 
