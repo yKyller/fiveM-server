@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+  <disabledFiles />
+  <includedXmlFiles />
+  <includedDataFiles />
+  <dataFiles>
+    <Item>
+      <filename>dlc_punto:/common/data/levels/gta5/vehicles.meta</filename>
+      <fileType>VEHICLE_METADATA_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_punto:/common/data/carcols.meta</filename>
+      <fileType>CARCOLS_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_punto:/common/data/carvariations.meta</filename>
+      <fileType>VEHICLE_VARIATION_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_punto:/common/data/puntoContentUnlocks.meta</filename>
+      <fileType>CONTENT_UNLOCKING_META_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>	
+    <Item>
+      <filename>dlc_punto:/common/data/dlctext.meta</filename>
+      <fileType>TEXTFILE_METAFILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_punto:/common/data/handling.meta</filename>
+      <fileType>HANDLING_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>	
+    <Item>
+      <filename>dlc_punto:/%PLATFORM%/levels/gta5/vehicles/puntovehicles.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_punto:/%PLATFORM%/levels/punto/vehiclemods/punto_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+  </dataFiles>
+  <contentChangeSets>
+	<Item>
+	  <changeSetName>PUNTO_AUTOGEN</changeSetName>
+	  <filesToDisable />
+	  <filesToEnable>
+        <Item>dlc_punto:/common/data/handling.meta</Item>
+        <Item>dlc_punto:/common/data/levels/gta5/vehicles.meta</Item>
+        <Item>dlc_punto:/common/data/carcols.meta</Item>
+        <Item>dlc_punto:/common/data/carvariations.meta</Item>
+        <Item>dlc_punto:/common/data/dlctext.meta</Item>	
+        <Item>dlc_punto:/%PLATFORM%/levels/gta5/vehicles/puntovehicles.rpf</Item>
+        <Item>dlc_punto:/%PLATFORM%/levels/punto/vehiclemods/punto_mods.rpf</Item>	
+	  </filesToEnable>
+	  <txdToLoad />
+	  <txdToUnload />
+	  <residentResources />
+	  <unregisterResources />
+	</Item>
+	<Item>
+	  <changeSetName>PUNTO_UNLOCKS_AUTOGEN</changeSetName>
+	  <filesToDisable />
+	  <filesToEnable>
+        <Item>dlc_punto:/common/data/puntoContentUnlocks.meta</Item>	    
+	  </filesToEnable>
+	  <txdToLoad />
+	  <txdToUnload />
+	  <residentResources />
+	  <unregisterResources />
+	</Item>
+  </contentChangeSets>
+  <patchFiles />
+</CDataFileMgr__ContentsOfDataFileXml>
