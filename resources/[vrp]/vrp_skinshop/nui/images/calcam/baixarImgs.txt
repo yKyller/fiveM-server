@@ -1,0 +1,142 @@
+let arrayCalcaM = [
+	{url:"https://wiki.rage.mp/images/thumb/9/98/Clothing_M_4_0.jpg/90px-Clothing_M_4_0.jpg", name:"90px-Clothing_M_4_0.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/3c/Clothing_M_4_1.jpg/90px-Clothing_M_4_1.jpg", name:"90px-Clothing_M_4_1.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/a4/Clothing_M_4_2.jpg/90px-Clothing_M_4_2.jpg", name:"90px-Clothing_M_4_2.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/3c/Clothing_M_4_3.jpg/90px-Clothing_M_4_3.jpg", name:"90px-Clothing_M_4_3.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/4d/Clothing_M_4_4.jpg/90px-Clothing_M_4_4.jpg", name:"90px-Clothing_M_4_4.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/4b/Clothing_M_4_5.jpg/90px-Clothing_M_4_5.jpg", name:"90px-Clothing_M_4_5.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/8/86/Clothing_M_4_6.jpg/90px-Clothing_M_4_6.jpg", name:"90px-Clothing_M_4_6.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/6/61/Clothing_M_4_7.jpg/90px-Clothing_M_4_7.jpg", name:"90px-Clothing_M_4_7.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/0/0b/Clothing_M_4_8.jpg/90px-Clothing_M_4_8.jpg", name:"90px-Clothing_M_4_8.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/f/ff/Clothing_M_4_9.jpg/90px-Clothing_M_4_9.jpg", name:"90px-Clothing_M_4_9.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/76/Clothing_M_4_10.jpg/90px-Clothing_M_4_10.jpg", name:"90px-Clothing_M_4_10.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/3f/Clothing_M_4_11.jpg/90px-Clothing_M_4_11.jpg", name:"90px-Clothing_M_4_11.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/5/53/Clothing_M_4_12.jpg/90px-Clothing_M_4_12.jpg", name:"90px-Clothing_M_4_12.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/14/Clothing_M_4_13.jpg/90px-Clothing_M_4_13.jpg", name:"90px-Clothing_M_4_13.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/b0/Clothing_M_4_14.jpg/90px-Clothing_M_4_14.jpg", name:"90px-Clothing_M_4_14.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/d/d1/Clothing_M_4_15.jpg/90px-Clothing_M_4_15.jpg", name:"90px-Clothing_M_4_15.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/d/d7/Clothing_M_4_16.jpg/90px-Clothing_M_4_16.jpg", name:"90px-Clothing_M_4_16.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/2/25/Clothing_M_4_17.jpg/90px-Clothing_M_4_17.jpg", name:"90px-Clothing_M_4_17.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/4d/Clothing_M_4_18.jpg/90px-Clothing_M_4_18.jpg", name:"90px-Clothing_M_4_18.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/36/Clothing_M_4_19.jpg/90px-Clothing_M_4_19.jpg", name:"90px-Clothing_M_4_19.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/70/Clothing_M_4_20.jpg/90px-Clothing_M_4_20.jpg", name:"90px-Clothing_M_4_20.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/30/Clothing_M_4_21.jpg/90px-Clothing_M_4_21.jpg", name:"90px-Clothing_M_4_21.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/34/Clothing_M_4_22.jpg/90px-Clothing_M_4_22.jpg", name:"90px-Clothing_M_4_22.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/6/63/Clothing_M_4_23.jpg/90px-Clothing_M_4_23.jpg", name:"90px-Clothing_M_4_23.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/bd/Clothing_M_4_24.jpg/90px-Clothing_M_4_24.jpg", name:"90px-Clothing_M_4_24.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/a9/Clothing_M_4_25.jpg/90px-Clothing_M_4_25.jpg", name:"90px-Clothing_M_4_25.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/16/Clothing_M_4_26.jpg/90px-Clothing_M_4_26.jpg", name:"90px-Clothing_M_4_26.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/c2/Clothing_M_4_27.jpg/90px-Clothing_M_4_27.jpg", name:"90px-Clothing_M_4_27.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/d/d6/Clothing_M_4_28.jpg/90px-Clothing_M_4_28.jpg", name:"90px-Clothing_M_4_28.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/8/85/Clothing_M_4_29.jpg/90px-Clothing_M_4_29.jpg", name:"90px-Clothing_M_4_29.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/8/83/Clothing_M_4_30.jpg/90px-Clothing_M_4_30.jpg", name:"90px-Clothing_M_4_30.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/2/2d/Clothing_M_4_31.jpg/90px-Clothing_M_4_31.jpg", name:"90px-Clothing_M_4_31.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/4c/Clothing_M_4_32.jpg/90px-Clothing_M_4_32.jpg", name:"90px-Clothing_M_4_32.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/5/55/Clothing_M_4_33.jpg/90px-Clothing_M_4_33.jpg", name:"90px-Clothing_M_4_33.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/2/2f/Clothing_M_4_34.jpg/90px-Clothing_M_4_34.jpg", name:"90px-Clothing_M_4_34.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/36/Clothing_M_4_35.jpg/90px-Clothing_M_4_35.jpg", name:"90px-Clothing_M_4_35.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/9/95/Clothing_M_4_36.jpg/90px-Clothing_M_4_36.jpg", name:"90px-Clothing_M_4_36.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/b8/Clothing_M_4_37.jpg/90px-Clothing_M_4_37.jpg", name:"90px-Clothing_M_4_37.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/8/81/Clothing_M_4_38.jpg/90px-Clothing_M_4_38.jpg", name:"90px-Clothing_M_4_38.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/48/Clothing_M_4_39.jpg/90px-Clothing_M_4_39.jpg", name:"90px-Clothing_M_4_39.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/48/Clothing_M_4_40.jpg/90px-Clothing_M_4_40.jpg", name:"90px-Clothing_M_4_40.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/6/62/Clothing_M_4_41.jpg/90px-Clothing_M_4_41.jpg", name:"90px-Clothing_M_4_41.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/c3/Clothing_M_4_42.jpg/90px-Clothing_M_4_42.jpg", name:"90px-Clothing_M_4_42.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/c6/Clothing_M_4_43.jpg/90px-Clothing_M_4_43.jpg", name:"90px-Clothing_M_4_43.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/bf/Clothing_M_4_44.jpg/90px-Clothing_M_4_44.jpg", name:"90px-Clothing_M_4_44.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/9/9b/Clothing_M_4_45.jpg/90px-Clothing_M_4_45.jpg", name:"90px-Clothing_M_4_45.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/4d/Clothing_M_4_46.jpg/90px-Clothing_M_4_46.jpg", name:"90px-Clothing_M_4_46.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/0/07/Clothing_M_4_47.jpg/90px-Clothing_M_4_47.jpg", name:"90px-Clothing_M_4_47.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/7f/Clothing_M_4_48.jpg/90px-Clothing_M_4_48.jpg", name:"90px-Clothing_M_4_48.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/3c/Clothing_M_4_49.jpg/90px-Clothing_M_4_49.jpg", name:"90px-Clothing_M_4_49.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/b2/Clothing_M_4_50.jpg/90px-Clothing_M_4_50.jpg", name:"90px-Clothing_M_4_50.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/ad/Clothing_M_4_51.jpg/90px-Clothing_M_4_51.jpg", name:"90px-Clothing_M_4_51.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/a6/Clothing_M_4_52.jpg/90px-Clothing_M_4_52.jpg", name:"90px-Clothing_M_4_52.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/c0/Clothing_M_4_53.jpg/90px-Clothing_M_4_53.jpg", name:"90px-Clothing_M_4_53.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/f/f1/Clothing_M_4_54.jpg/90px-Clothing_M_4_54.jpg", name:"90px-Clothing_M_4_54.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/a1/Clothing_M_4_55.jpg/90px-Clothing_M_4_55.jpg", name:"90px-Clothing_M_4_55.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/6/60/Clothing_M_4_56.jpg/90px-Clothing_M_4_56.jpg", name:"90px-Clothing_M_4_56.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/9/9e/Clothing_M_4_57.jpg/90px-Clothing_M_4_57.jpg", name:"90px-Clothing_M_4_57.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/77/Clothing_M_4_58.jpg/90px-Clothing_M_4_58.jpg", name:"90px-Clothing_M_4_58.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/4b/Clothing_M_4_59.jpg/90px-Clothing_M_4_59.jpg", name:"90px-Clothing_M_4_59.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/c2/Clothing_M_4_60.jpg/90px-Clothing_M_4_60.jpg", name:"90px-Clothing_M_4_60.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/d/d4/Clothing_M_4_61.jpg/90px-Clothing_M_4_61.jpg", name:"90px-Clothing_M_4_61.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/d/d0/Clothing_M_4_62.jpg/90px-Clothing_M_4_62.jpg", name:"90px-Clothing_M_4_62.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/6/63/Clothing_M_4_63.jpg/90px-Clothing_M_4_63.jpg", name:"90px-Clothing_M_4_63.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/4b/Clothing_M_4_64.jpg/90px-Clothing_M_4_64.jpg", name:"90px-Clothing_M_4_64.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/a6/Clothing_M_4_65.jpg/90px-Clothing_M_4_65.jpg", name:"90px-Clothing_M_4_65.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/6/6c/Clothing_M_4_66.jpg/90px-Clothing_M_4_66.jpg", name:"90px-Clothing_M_4_66.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/f/f2/Clothing_M_4_67.jpg/90px-Clothing_M_4_67.jpg", name:"90px-Clothing_M_4_67.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/7a/Clothing_M_4_68.jpg/90px-Clothing_M_4_68.jpg", name:"90px-Clothing_M_4_68.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/74/Clothing_M_4_69.jpg/90px-Clothing_M_4_69.jpg", name:"90px-Clothing_M_4_69.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/6/62/Clothing_M_4_70.jpg/90px-Clothing_M_4_70.jpg", name:"90px-Clothing_M_4_70.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/15/Clothing_M_4_71.jpg/90px-Clothing_M_4_71.jpg", name:"90px-Clothing_M_4_71.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/a0/Clothing_M_4_72.jpg/90px-Clothing_M_4_72.jpg", name:"90px-Clothing_M_4_72.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/78/Clothing_M_4_73.jpg/90px-Clothing_M_4_73.jpg", name:"90px-Clothing_M_4_73.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/e/ec/Clothing_M_4_74.jpg/90px-Clothing_M_4_74.jpg", name:"90px-Clothing_M_4_74.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/ab/Clothing_M_4_75.jpg/90px-Clothing_M_4_75.jpg", name:"90px-Clothing_M_4_75.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/e/ea/Clothing_M_4_76.jpg/90px-Clothing_M_4_76.jpg", name:"90px-Clothing_M_4_76.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/5/5f/Clothing_M_4_77.jpg/90px-Clothing_M_4_77.jpg", name:"90px-Clothing_M_4_77.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/b5/Clothing_M_4_78.jpg/90px-Clothing_M_4_78.jpg", name:"90px-Clothing_M_4_78.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/49/Clothing_M_4_79.jpg/90px-Clothing_M_4_79.jpg", name:"90px-Clothing_M_4_79.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/e/e3/Clothing_M_4_80.jpg/90px-Clothing_M_4_80.jpg", name:"90px-Clothing_M_4_80.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/8/85/Clothing_M_4_81.jpg/90px-Clothing_M_4_81.jpg", name:"90px-Clothing_M_4_81.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/aa/Clothing_M_4_82.jpg/90px-Clothing_M_4_82.jpg", name:"90px-Clothing_M_4_82.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/4c/Clothing_M_4_83.jpg/90px-Clothing_M_4_83.jpg", name:"90px-Clothing_M_4_83.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/c3/Clothing_M_4_84.jpg/90px-Clothing_M_4_84.jpg", name:"90px-Clothing_M_4_84.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/b7/Clothing_M_4_85.jpg/90px-Clothing_M_4_85.jpg", name:"90px-Clothing_M_4_85.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/8/81/Clothing_M_4_86.jpg/90px-Clothing_M_4_86.jpg", name:"90px-Clothing_M_4_86.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/70/Clothing_M_4_87.jpg/90px-Clothing_M_4_87.jpg", name:"90px-Clothing_M_4_87.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/b8/Clothing_M_4_88.jpg/90px-Clothing_M_4_88.jpg", name:"90px-Clothing_M_4_88.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/12/Clothing_M_4_89.jpg/90px-Clothing_M_4_89.jpg", name:"90px-Clothing_M_4_89.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/2/2f/Clothing_M_4_90.jpg/90px-Clothing_M_4_90.jpg", name:"90px-Clothing_M_4_90.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/35/Clothing_M_4_91.jpg/90px-Clothing_M_4_91.jpg", name:"90px-Clothing_M_4_91.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/34/Clothing_M_4_92.jpg/90px-Clothing_M_4_92.jpg", name:"90px-Clothing_M_4_92.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/6/67/Clothing_M_4_93.jpg/90px-Clothing_M_4_93.jpg", name:"90px-Clothing_M_4_93.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/a0/Clothing_M_4_94.jpg/90px-Clothing_M_4_94.jpg", name:"90px-Clothing_M_4_94.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/1b/Clothing_M_4_95.jpg/90px-Clothing_M_4_95.jpg", name:"90px-Clothing_M_4_95.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/bc/Clothing_M_4_96.jpg/90px-Clothing_M_4_96.jpg", name:"90px-Clothing_M_4_96.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/0/08/Clothing_M_4_97.jpg/90px-Clothing_M_4_97.jpg", name:"90px-Clothing_M_4_97.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/d/de/Clothing_M_4_98.jpg/90px-Clothing_M_4_98.jpg", name:"90px-Clothing_M_4_98.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/c9/Clothing_M_4_99.jpg/90px-Clothing_M_4_99.jpg", name:"90px-Clothing_M_4_99.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/d/de/Clothing_M_4_100.jpg/90px-Clothing_M_4_100.jpg", name:"90px-Clothing_M_4_100.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/9/98/Clothing_M_4_101.jpg/90px-Clothing_M_4_101.jpg", name:"90px-Clothing_M_4_101.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/7c/Clothing_M_4_102.jpg/90px-Clothing_M_4_102.jpg", name:"90px-Clothing_M_4_102.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/6/6f/Clothing_M_4_103.jpg/90px-Clothing_M_4_103.jpg", name:"90px-Clothing_M_4_103.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/74/Clothing_M_4_104.jpg/90px-Clothing_M_4_104.jpg", name:"90px-Clothing_M_4_104.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/f/fd/Clothing_M_4_105.jpg/90px-Clothing_M_4_105.jpg", name:"90px-Clothing_M_4_105.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/35/Clothing_M_4_106.jpg/90px-Clothing_M_4_106.jpg", name:"90px-Clothing_M_4_106.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/73/Clothing_M_4_107.jpg/90px-Clothing_M_4_107.jpg", name:"90px-Clothing_M_4_107.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/c4/Clothing_M_4_108.jpg/90px-Clothing_M_4_108.jpg", name:"90px-Clothing_M_4_108.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/5/53/Clothing_M_4_109.jpg/90px-Clothing_M_4_109.jpg", name:"90px-Clothing_M_4_109.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/8/88/Clothing_M_4_110.jpg/90px-Clothing_M_4_110.jpg", name:"90px-Clothing_M_4_110.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/5/59/Clothing_M_4_111.jpg/90px-Clothing_M_4_111.jpg", name:"90px-Clothing_M_4_111.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/10/Clothing_M_4_112.jpg/90px-Clothing_M_4_112.jpg", name:"90px-Clothing_M_4_112.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/b5/Clothing_M_4_113.jpg/90px-Clothing_M_4_113.jpg", name:"90px-Clothing_M_4_113.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/2/29/Clothing_M_4_114.jpg/90px-Clothing_M_4_114.jpg", name:"90px-Clothing_M_4_114.jpg"}
+]
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+
+async function downloadImage(arrayImg) {
+	
+	for (let i = 0; i < arrayImg.length; i++) {
+		if (i % 10 == 0) {
+			sleep(10000)
+		}
+		const link = document.createElement('a')
+		link.href = arrayImg[i].url
+		link.download = arrayImg[i].name
+		document.body.appendChild(link)
+		link.click()
+		document.body.removeChild(link)
+	}
+}
+
+downloadImage(arrayCalcaF)

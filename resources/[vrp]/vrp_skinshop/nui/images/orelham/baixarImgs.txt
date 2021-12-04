@@ -1,0 +1,64 @@
+let orelham = [
+	{url:"https://wiki.rage.mp/images/thumb/b/b8/Prop_M_2_0.jpg/120px-Prop_M_2_0.jpg",name:"Prop_M_2_0.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/c6/Prop_M_2_1.jpg/120px-Prop_M_2_1.jpg",name:"Prop_M_2_1.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/0/0e/Prop_M_2_2.jpg/120px-Prop_M_2_2.jpg",name:"Prop_M_2_2.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/8/86/Prop_M_2_3.jpg/120px-Prop_M_2_3.jpg",name:"Prop_M_2_3.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/0/0e/Prop_M_2_4.jpg/120px-Prop_M_2_4.jpg",name:"Prop_M_2_4.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/ca/Prop_M_2_5.jpg/120px-Prop_M_2_5.jpg",name:"Prop_M_2_5.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/49/Prop_M_2_6.jpg/120px-Prop_M_2_6.jpg",name:"Prop_M_2_6.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/e/ec/Prop_M_2_7.jpg/120px-Prop_M_2_7.jpg",name:"Prop_M_2_7.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/2/24/Prop_M_2_8.jpg/120px-Prop_M_2_8.jpg",name:"Prop_M_2_8.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/44/Prop_M_2_9.jpg/120px-Prop_M_2_9.jpg",name:"Prop_M_2_9.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/2/2a/Prop_M_2_10.jpg/120px-Prop_M_2_10.jpg",name:"Prop_M_2_10.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/b5/Prop_M_2_11.jpg/120px-Prop_M_2_11.jpg",name:"Prop_M_2_11.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/3a/Prop_M_2_12.jpg/120px-Prop_M_2_12.jpg",name:"Prop_M_2_12.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/4d/Prop_M_2_13.jpg/120px-Prop_M_2_13.jpg",name:"Prop_M_2_13.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/d/d1/Prop_M_2_14.jpg/120px-Prop_M_2_14.jpg",name:"Prop_M_2_14.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/41/Prop_M_2_15.jpg/120px-Prop_M_2_15.jpg",name:"Prop_M_2_15.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/8/82/Prop_M_2_16.jpg/120px-Prop_M_2_16.jpg",name:"Prop_M_2_16.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/d/df/Prop_M_2_17.jpg/120px-Prop_M_2_17.jpg",name:"Prop_M_2_17.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/f/f2/Prop_M_2_18.jpg/120px-Prop_M_2_18.jpg",name:"Prop_M_2_18.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/d/d4/Prop_M_2_19.jpg/120px-Prop_M_2_19.jpg",name:"Prop_M_2_19.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/e/eb/Prop_M_2_20.jpg/120px-Prop_M_2_20.jpg",name:"Prop_M_2_20.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/f/f8/Prop_M_2_21.jpg/120px-Prop_M_2_21.jpg",name:"Prop_M_2_21.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/16/Prop_M_2_22.jpg/120px-Prop_M_2_22.jpg",name:"Prop_M_2_22.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/1c/Prop_M_2_23.jpg/120px-Prop_M_2_23.jpg",name:"Prop_M_2_23.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/f/f5/Prop_M_2_24.jpg/120px-Prop_M_2_24.jpg",name:"Prop_M_2_24.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/39/Prop_M_2_25.jpg/120px-Prop_M_2_25.jpg",name:"Prop_M_2_25.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/5/58/Prop_M_2_26.jpg/120px-Prop_M_2_26.jpg",name:"Prop_M_2_26.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/1b/Prop_M_2_27.jpg/120px-Prop_M_2_27.jpg",name:"Prop_M_2_27.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/b1/Prop_M_2_28.jpg/120px-Prop_M_2_28.jpg",name:"Prop_M_2_28.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/c2/Prop_M_2_29.jpg/120px-Prop_M_2_29.jpg",name:"Prop_M_2_29.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/75/Prop_M_2_30.jpg/120px-Prop_M_2_30.jpg",name:"Prop_M_2_30.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/e/e0/Prop_M_2_31.jpg/120px-Prop_M_2_31.jpg",name:"Prop_M_2_31.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/e/e3/Prop_M_2_32.jpg/120px-Prop_M_2_32.jpg",name:"Prop_M_2_32.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/73/Prop_M_2_33.jpg/120px-Prop_M_2_33.jpg",name:"Prop_M_2_33.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/bd/Prop_M_2_34.jpg/120px-Prop_M_2_34.jpg",name:"Prop_M_2_34.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/5/5d/Prop_M_2_35.jpg/120px-Prop_M_2_35.jpg",name:"Prop_M_2_35.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/cd/Prop_M_2_36.jpg/120px-Prop_M_2_36.jpg",name:"Prop_M_2_36.jpg"},
+]
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+
+async function downloadImage(arrayImg) {
+	
+	for (let i = 0; i < arrayImg.length; i++) {
+		if (i % 10 == 0) {
+			sleep(10000)
+		}
+		const link = document.createElement('a')
+		link.href = arrayImg[i].url
+		link.download = arrayImg[i].name
+		document.body.appendChild(link)
+		link.click()
+		document.body.removeChild(link)
+	}
+}
+
+downloadImage(adesivom)

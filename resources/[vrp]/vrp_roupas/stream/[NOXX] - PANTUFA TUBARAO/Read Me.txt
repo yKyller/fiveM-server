@@ -1,0 +1,19 @@
+Slippers Baby Shark with 6 textures (teeth glows in the dark)
+
+The files are renamed as:
+
+mp_m_freemode_01^
+mp_f_freemode_01^
+
+If you keep this way will be replace ID11 on Feet.
+
+How to install
+path
+
+GTAV/x64v.rpf/models/cdimages/streamedpeds_mp.rpf/mp_f_freemode_01/mp_f_freemode_01_feet_011_u
+
+just put into the folder stream and start :)
+
+I hope you enjoy my work.
+
+Feel free to report any problems with this mod. More items you can find on my discord.

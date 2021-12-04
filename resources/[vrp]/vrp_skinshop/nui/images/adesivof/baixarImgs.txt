@@ -1,0 +1,40 @@
+let adesivof = [
+	{url:"https://wiki.rage.mp/images/a/a0/Clothing_F_10_0.jpg",name:"Clothing_F_10_0.jpg"},
+	{url:"https://wiki.rage.mp/images/c/cf/Clothing_F_10_7.jpg",name:"Clothing_F_10_7.jpg"},
+	{url:"https://wiki.rage.mp/images/8/81/Clothing_F_10_8.jpg",name:"Clothing_F_10_8.jpg"},
+	{url:"https://wiki.rage.mp/images/b/b9/Clothing_F_10_10.jpg",name:"Clothing_F_10_10.jpg"},
+	{url:"https://wiki.rage.mp/images/5/52/Clothing_F_10_11.jpg",name:"Clothing_F_10_11.jpg"},
+	{url:"https://wiki.rage.mp/images/6/61/Clothing_F_10_12.jpg",name:"Clothing_F_10_12.jpg"},
+	{url:"https://wiki.rage.mp/images/3/3c/Clothing_F_10_13.jpg",name:"Clothing_F_10_13.jpg"},
+	{url:"https://wiki.rage.mp/images/8/8a/Clothing_F_10_14.jpg",name:"Clothing_F_10_14.jpg"},
+	{url:"https://wiki.rage.mp/images/e/ec/Clothing_F_10_52.jpg",name:"Clothing_F_10_52.jpg"},
+	{url:"https://wiki.rage.mp/images/b/b6/Clothing_F_10_53.jpg",name:"Clothing_F_10_53.jpg"},
+	{url:"https://wiki.rage.mp/images/0/06/Clothing_F_10_65.jpg",name:"Clothing_F_10_65.jpg"},
+	{url:"https://wiki.rage.mp/images/2/24/Clothing_F_10_66.jpg",name:"Clothing_F_10_66.jpg"},
+	{url:"https://wiki.rage.mp/images/5/52/Clothing_F_10_70.jpg",name:"Clothing_F_10_70.jpg"},
+]
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+
+async function downloadImage(arrayImg) {
+	
+	for (let i = 0; i < arrayImg.length; i++) {
+		if (i % 10 == 0) {
+			sleep(10000)
+		}
+		const link = document.createElement('a')
+		link.href = arrayImg[i].url
+		link.download = arrayImg[i].name
+		document.body.appendChild(link)
+		link.click()
+		document.body.removeChild(link)
+	}
+}
+
+downloadImage(adesivom)

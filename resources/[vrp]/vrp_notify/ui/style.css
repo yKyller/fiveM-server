@@ -1,0 +1,155 @@
+html {
+
+	overflow-x: hidden !important;
+
+	overflow-y: hidden !important;
+
+	background-color: transparent !important;
+
+}
+
+
+
+body {
+
+  background-color: transparent !important;
+
+  background-color: red;
+
+}
+
+
+
+#notifications {
+
+	top: 4.5%;
+
+	right: 8.5%;
+
+	color: rgba(255,255,255,1);
+
+    max-width: 50px;
+
+	font-size: 0px;
+
+	position: absolute !important;
+
+    font-family: Arial,Helvetica,sans-serif;
+
+}
+
+
+
+#notifications b {
+
+  /* color: rgba(255,255,255,1); */
+
+  font-weight: bolder;
+
+}
+
+
+
+#notifications div {
+
+  background-size: 30px;
+
+  float: right;
+
+  padding: 10px 10px 10px 45px;
+
+  border-radius: 15px;
+
+  margin: 10px;
+
+}
+
+
+
+.sucesso {
+
+  background: url("https://image.flaticon.com/icons/svg/1533/1533908.svg") 10px no-repeat;
+
+	background-color: rgba(122, 30, 175, 0.8);
+
+}
+
+
+
+.negado {
+
+	background: url("https://image.flaticon.com/icons/svg/1533/1533914.svg") 10px no-repeat;
+
+	background-color: rgba(236, 80, 18, 0.8);
+
+}
+
+
+
+.aviso {
+
+	background: url("https://image.flaticon.com/icons/svg/455/455875.svg") 10px no-repeat;
+
+	background-color: rgba(255, 153, 0, 0.8);
+
+}
+
+
+
+.financeiro {
+
+	background: url("https://image.flaticon.com/icons/svg/755/755195.svg") 10px no-repeat;
+
+	background-color: rgba(54, 156, 76, 0.8);
+
+}
+
+
+
+.importante {
+
+	background: url("https://cdn.discordapp.com/attachments/645968050591498244/696605595305771108/240_F_254530922_0W31qfjcIgX39Rt1FoGSNOAO2cohakKQ.png") 10px no-repeat;
+
+	background-color: rgba(51, 102, 255, 0.8);
+
+}
+
+
+
+.vtunning {
+
+	background: url("https://image.flaticon.com/icons/svg/1814/1814539.svg") 10px no-repeat;
+
+	background-color: rgba(12, 209, 235, 0.8);
+
+}
+
+
+
+/* .sos {
+
+	background: url("https://image.flaticon.com/icons/svg/1786/1786528.svg") 10px no-repeat;
+
+  background-color: rgba(230, 196, 0, 0.8);
+
+  color: white;
+
+}
+
+.sos b {
+
+  color: green !important;
+
+}
+
+
+
+.msg {
+
+	background: url("https://image.flaticon.com/icons/svg/129/129481.svg") 10px no-repeat;
+
+  background-color: rgba(20, 187, 196, 0.8);
+
+  color: white;
+
+} */

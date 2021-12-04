@@ -1,0 +1,44 @@
+let coletem = [
+	{url:"https://wiki.rage.mp/images/thumb/7/7e/Clothing_M_9_0.jpg/83px-Clothing_M_9_0.jpg",name:"83px-Clothing_M_9_0.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/d/df/Clothing_M_9_1.jpg/83px-Clothing_M_9_1.jpg",name:"83px-Clothing_M_9_1.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/0/0a/Clothing_M_9_2.jpg/83px-Clothing_M_9_2.jpg",name:"83px-Clothing_M_9_2.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/f/f5/Clothing_M_9_3.jpg/83px-Clothing_M_9_3.jpg",name:"83px-Clothing_M_9_3.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/0/0d/Clothing_M_9_4.jpg/83px-Clothing_M_9_4.jpg",name:"83px-Clothing_M_9_4.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/b0/Clothing_M_9_5.jpg/83px-Clothing_M_9_5.jpg",name:"83px-Clothing_M_9_5.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/ae/Clothing_M_9_6.jpg/83px-Clothing_M_9_6.jpg",name:"83px-Clothing_M_9_6.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/8/82/Clothing_M_9_7.jpg/83px-Clothing_M_9_7.jpg",name:"83px-Clothing_M_9_7.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/d/d3/Clothing_M_9_8.jpg/83px-Clothing_M_9_8.jpg",name:"83px-Clothing_M_9_8.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/0/0b/Clothing_M_9_9.jpg/83px-Clothing_M_9_9.jpg",name:"83px-Clothing_M_9_9.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/b4/Clothing_M_9_10.jpg/83px-Clothing_M_9_10.jpg",name:"83px-Clothing_M_9_10.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/a5/Clothing_M_9_11.jpg/83px-Clothing_M_9_11.jpg",name:"83px-Clothing_M_9_11.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/1b/Clothing_M_9_12.jpg/83px-Clothing_M_9_12.jpg",name:"83px-Clothing_M_9_12.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/8/8d/Clothing_M_9_13.jpg/83px-Clothing_M_9_13.jpg",name:"83px-Clothing_M_9_13.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/f/f6/Clothing_M_9_14.jpg/83px-Clothing_M_9_14.jpg",name:"83px-Clothing_M_9_14.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/6/65/Clothing_M_9_15.jpg/83px-Clothing_M_9_15.jpg",name:"83px-Clothing_M_9_15.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/a4/Clothing_M_9_16.jpg/83px-Clothing_M_9_16.jpg",name:"83px-Clothing_M_9_16.jpg"}
+]
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+
+async function downloadImage(arrayImg) {
+	
+	for (let i = 0; i < arrayImg.length; i++) {
+		if (i % 10 == 0) {
+			sleep(10000)
+		}
+		const link = document.createElement('a')
+		link.href = arrayImg[i].url
+		link.download = arrayImg[i].name
+		document.body.appendChild(link)
+		link.click()
+		document.body.removeChild(link)
+	}
+}
+
+downloadImage(arrayCalcaF)

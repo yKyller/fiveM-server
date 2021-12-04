@@ -1,0 +1,57 @@
+let oculosf = [
+	{url:"https://wiki.rage.mp/images/thumb/0/0a/Prop_F_1_0.jpg/120px-Prop_F_1_0.jpg",name:"Prop_F_1_0.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/15/Prop_F_1_1.jpg/120px-Prop_F_1_1.jpg",name:"Prop_F_1_1.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/0/08/Prop_F_1_2.jpg/120px-Prop_F_1_2.jpg",name:"Prop_F_1_2.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/6/6c/Prop_F_1_3.jpg/120px-Prop_F_1_3.jpg",name:"Prop_F_1_3.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/4/46/Prop_F_1_4.jpg/120px-Prop_F_1_4.jpg",name:"Prop_F_1_4.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/2/2a/Prop_F_1_5.jpg/120px-Prop_F_1_5.jpg",name:"Prop_F_1_5.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/e/e3/Prop_F_1_6.jpg/120px-Prop_F_1_6.jpg",name:"Prop_F_1_6.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/c6/Prop_F_1_7.jpg/120px-Prop_F_1_7.jpg",name:"Prop_F_1_7.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/f/f7/Prop_F_1_8.jpg/120px-Prop_F_1_8.jpg",name:"Prop_F_1_8.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/b/b5/Prop_F_1_9.jpg/120px-Prop_F_1_9.jpg",name:"Prop_F_1_9.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/9/96/Prop_F_1_10.jpg/120px-Prop_F_1_10.jpg",name:"Prop_F_1_10.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/1c/Prop_F_1_11.jpg/120px-Prop_F_1_11.jpg",name:"Prop_F_1_11.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/2/2d/Prop_F_1_12.jpg/120px-Prop_F_1_12.jpg",name:"Prop_F_1_12.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/9/97/Prop_F_1_13.jpg/120px-Prop_F_1_13.jpg",name:"Prop_F_1_13.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/0/07/Prop_F_1_14.jpg/120px-Prop_F_1_14.jpg",name:"Prop_F_1_14.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/0/0a/Prop_F_1_15.jpg/120px-Prop_F_1_15.jpg",name:"Prop_F_1_15.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/2/25/Prop_F_1_16.jpg/120px-Prop_F_1_16.jpg",name:"Prop_F_1_16.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/0/0a/Prop_F_1_17.jpg/120px-Prop_F_1_17.jpg",name:"Prop_F_1_17.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/e/ee/Prop_F_1_18.jpg/120px-Prop_F_1_18.jpg",name:"Prop_F_1_18.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/37/Prop_F_1_19.jpg/120px-Prop_F_1_19.jpg",name:"Prop_F_1_19.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/c/c8/Prop_F_1_20.jpg/120px-Prop_F_1_20.jpg",name:"Prop_F_1_20.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/a/af/Prop_F_1_21.jpg/120px-Prop_F_1_21.jpg",name:"Prop_F_1_21.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/7/76/Prop_F_1_22.jpg/120px-Prop_F_1_22.jpg",name:"Prop_F_1_22.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/1/16/Prop_F_1_23.jpg/120px-Prop_F_1_23.jpg",name:"Prop_F_1_23.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/f/fd/Prop_F_1_24.jpg/120px-Prop_F_1_24.jpg",name:"Prop_F_1_24.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/2/2c/Prop_F_1_25.jpg/120px-Prop_F_1_25.jpg",name:"Prop_F_1_25.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/35/Prop_F_1_27.jpg/120px-Prop_F_1_27.jpg",name:"Prop_F_1_27.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/3/35/Prop_F_1_27.jpg/120px-Prop_F_1_27.jpg",name:"Prop_F_1_27.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/2/26/Prop_F_1_28.jpg/120px-Prop_F_1_28.jpg",name:"Prop_F_1_28.jpg"},
+	{url:"https://wiki.rage.mp/images/thumb/5/51/Prop_F_1_29.jpg/120px-Prop_F_1_29.jpg",name:"Prop_F_1_29.jpg"},
+]
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+
+async function downloadImage(arrayImg) {
+	
+	for (let i = 0; i < arrayImg.length; i++) {
+		if (i % 10 == 0) {
+			sleep(10000)
+		}
+		const link = document.createElement('a')
+		link.href = arrayImg[i].url
+		link.download = arrayImg[i].name
+		document.body.appendChild(link)
+		link.click()
+		document.body.removeChild(link)
+	}
+}
+
+downloadImage(adesivom)
