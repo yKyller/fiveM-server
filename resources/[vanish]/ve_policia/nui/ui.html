@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="ui.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="actionmenu">
+			<div id="mainmenu">
+				<button class="menuoption" data-sub="armamentos">Armamentos</button>
+				<!-- <button class="menuoption" data-sub="municoes">Munições</button> -->
+				<button class="menuoption clear" data-action="armamentos-comprar-limpar">Limpar</button>
+				<button class="menuoption close" data-action="fechar">Fechar</button>
+			</div>
+
+			<div data-parent="mainmenu" id="armamentos" style="display: none;">
+				<button class="menuoption" data-sub="armamentos-comprar">Individual</button>
+				<!--button class="menuoption" data-sub="kits-comprar">Por Patente</button!-->
+			</div>
+			<!--div data-parent="armamentos" id="kits-comprar" style="display: none;">
+				<button class="menuoption" data-action="kits-comprar-cadete">Cadete</button>
+				<button class="menuoption" data-action="kits-comprar-officer">Officer</button>
+				<button class="menuoption" data-action="kits-comprar-sargento">Sargento</button>
+				<button class="menuoption" data-action="kits-comprar-tenente">Tenente</button>
+				<button class="menuoption" data-action="kits-comprar-capitao">Capitão+</button>
+			</div!-->
+			<div data-parent="armamentos" id="armamentos-comprar" style="display: none;">
+				<button class="menuoption" data-action="armamentos-comprar-taser">Taser</button>
+				<button class="menuoption" data-action="armamentos-comprar-cassetete">Cassetete</button>
+				<button class="menuoption" data-action="armamentos-comprar-lanterna">Lanterna</button>
+				<button class="menuoption" data-action="armamentos-comprar-glock">Glock</button>
+				<button class="menuoption" data-action="armamentos-comprar-mp5">MP5</button>
+				<button class="menuoption" data-action="armamentos-comprar-sigsauer">Sigsauer</button>
+				<button class="menuoption" data-action="armamentos-comprar-deagle">Deagle</button>
+				<button class="menuoption" data-action="armamentos-comprar-m4a1">AR-15</button>
+				<button class="menuoption" data-action="armamentos-comprar-m4a4">MPX</button>
+				<button class="menuoption" data-action="armamentos-comprar-radio">Radio</button>
+			</div>
+
+			<!-- <div data-parent="mainmenu" id="municoes" style="display: none;">
+				<button class="menuoption" data-sub="municoes-comprar">Pegar</button>				
+			</div>
+			<div data-parent="municoes" id="municoes-comprar" style="display: none;">
+				<button class="menuoption" data-action="municoes-comprar-glock">Glock</button>
+				<button class="menuoption" data-action="municoes-comprar-mp5">Mp5</button>
+				<button class="menuoption" data-action="municoes-comprar-sigsauer">Sigsauer</button>
+				<button class="menuoption" data-action="municoes-comprar-remington">Remington</button>
+				<button class="menuoption" data-action="municoes-comprar-m4a1">M4A1</button>
+				<button class="menuoption" data-action="municoes-comprar-m4a4">M4A4</button>
+			</div>			 -->
+		</div>
+		<script src="ui.js" type="text/javascript"></script>
+	</body>
+</html>
