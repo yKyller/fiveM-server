@@ -13,10 +13,15 @@ Execute o script [database.sql](/[MySQL]/database.sql) para criar o banco de dad
 
 ## Edite o arquivo server.cfg
 Abra o arquivo [server.cfg](server.cfg);
+
 Edite a linha **5** caso tenha alguma informação diferente (*user*, *senha*, *nome do banco*).
+
 Caso queira mudar a Build que seu servidor ira rodar mude na linha **6**.
+
 Edite as linhas **211 e 212** substituindo a palavra **hex** pela sua steam hex;
+
 Edite a linha **225** substituindo a palavra **steamAPI** por sua Steam Web API key;
 > Pode ser encontrada aqui [SteamAPI](https://steamcommunity.com/dev/apikey)
+
 Edite a linha **228** substituindo a palavra **FiveMKey** por sua License Key do FiveM.
 > Pode ser encontrada aqui [FiveM Key](https://keymaster.fivem.net)
