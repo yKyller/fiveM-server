@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShopVehicleDataArray>
+	<Vehicles>
+		<Item>
+			<lockHash>CU_EVOQ_VEH</lockHash>
+			<modelNameHash>evoq</modelNameHash>
+			<cost value="100"/>
+			<textLabel>EVOQ</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+	</Vehicles>
+</ShopVehicleDataArray>

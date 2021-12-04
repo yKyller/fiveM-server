@@ -1,0 +1,1 @@
+Use this template in photoshop or gimp and create your own livery.
