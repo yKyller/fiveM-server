@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>mercedespolicia</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            70
+            70
+            74 
+            34
+						27
+						112
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>																			
+        </Item>
+      </colors>
+      <kits>
+        <Item>mercedespolicia</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="998" />
+      <sirenSettings value="99" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>
