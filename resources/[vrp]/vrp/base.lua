@@ -92,7 +92,7 @@ function vRP.execute(name,params)
 	return vRP.query(name,params,"execute")
 end
 
-vRP.prepare("vRP/create_user","INSERT INTO vrp_users(whitelisted,banned) VALUES(false,false); SELECT LAST_INSERT_ID() AS id")
+vRP.prepare("vRP/create_user","INSERT INTO vrp_users(whitelisted,banned) VALUES(true,false); SELECT LAST_INSERT_ID() AS id")
 vRP.prepare("vRP/add_identifier","INSERT INTO vrp_user_ids(identifier,user_id) VALUES(@identifier,@user_id)")
 vRP.prepare("vRP/userid_byidentifier","SELECT user_id FROM vrp_user_ids WHERE identifier = @identifier")
 vRP.prepare("vRP/set_userdata","REPLACE INTO vrp_user_data(user_id,dkey,dvalue) VALUES(@user_id,@key,@value)")

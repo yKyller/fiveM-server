@@ -195,430 +195,594 @@ CREATE TABLE IF NOT EXISTS `vrp_estoque` (
 
 -- Copiando dados para a tabela vrp.vrp_estoque: ~423 rows (aproximadamente)
 /*!40000 ALTER TABLE `vrp_estoque` DISABLE KEYS */;
-INSERT INTO `vrp_estoque` (`id`, `vehicle`, `quantidade`) VALUES
-	(2, 'akuma', 9),
-	(3, 'alpha', 10),
-	(4, 'asea', 14),
-	(5, 'asterope', 9),
-	(6, 'audirs6', 10),
-	(7, 'audirs7', 10),
-	(8, 'autarch', 10),
-	(9, 'avarus', 10),
-	(10, 'bagger', 9),
-	(11, 'baller', 10),
-	(12, 'baller2', 7),
-	(13, 'baller3', 7),
-	(14, 'baller4', 9),
-	(17, 'banshee', 10),
-	(18, 'banshee2', 8),
-	(19, 'bati', 9),
-	(20, 'bati2', 10),
-	(21, 'bestiagts', 10),
-	(22, 'bf400', 6),
-	(23, 'bfinjection', 10),
-	(24, 'bifta', 6),
-	(25, 'bison', 10),
-	(26, 'bison2', 9),
-	(27, 'bjxl', 9),
-	(28, 'blade', 15),
-	(29, 'blazer', 10),
-	(30, 'blazer4', 4),
-	(31, 'blista', 49),
-	(32, 'blista2', 8),
-	(33, 'blista3', 9),
-	(35, 'bobcatxl', 9),
-	(36, 'bodhi2', 8),
-	(37, 'brawler', 10),
-	(38, 'brioso', 0),
-	(39, 'btype', 10),
-	(40, 'btype2', 10),
-	(41, 'btype3', 9),
-	(42, 'buccaneer', 15),
-	(43, 'buccaneer2', 15),
-	(44, 'buffalo', 10),
-	(45, 'buffalo2', 10),
-	(46, 'buffalo3', 10),
-	(47, 'bullet', 9),
-	(48, 'burrito', 2),
-	(49, 'burrito2', 7),
-	(50, 'burrito3', 2),
-	(51, 'burrito4', 7),
-	(52, 'carbonizzare', 8),
-	(53, 'carbonrs', 10),
-	(54, 'casco', 10),
-	(55, 'cavalcade', 10),
-	(56, 'cavalcade2', 10),
-	(57, 'cheburek', 4),
-	(58, 'cheetah', 9),
-	(59, 'cheetah2', 10),
-	(60, 'chimera', 10),
-	(61, 'chino', 15),
-	(62, 'chino2', 14),
-	(63, 'cliffhanger', 10),
-	(64, 'clique', 15),
-	(65, 'cog55', 10),
-	(67, 'cogcabrio', 15),
-	(68, 'cognoscenti', 10),
-	(70, 'comet2', 10),
-	(71, 'comet3', 8),
-	(72, 'comet5', 9),
-	(73, 'contender', 6),
-	(74, 'coquette', 6),
-	(75, 'coquette2', 10),
-	(76, 'coquette3', 9),
-	(77, 'cyclone', 10),
-	(78, 'daemon2', 10),
-	(79, 'defiler', 5),
-	(81, 'deviant', 15),
-	(82, 'diablous', 9),
-	(83, 'diablous2', 8),
-	(84, 'dilettante', 15),
-	(85, 'dodgechargersrt', 10),
-	(86, 'dominator', 14),
-	(87, 'dominator2', 10),
-	(88, 'dominator3', 15),
-	(89, 'double', 0),
-	(90, 'dubsta', 10),
-	(91, 'dubsta2', 6),
-	(92, 'dubsta3', 9),
-	(93, 'dukes', 14),
-	(95, 'elegy2', 9),
-	(96, 'ellie', 15),
-	(97, 'emperor', 10),
-	(98, 'emperor2', 10),
-	(99, 'enduro', 1),
-	(100, 'entity2', 10),
-	(101, 'entityxf', 9),
-	(102, 'esskey', 1),
-	(103, 'exemplar', 8),
-	(104, 'f620', 16),
-	(105, 'faction', 15),
-	(106, 'faction2', 14),
-	(107, 'faction3', 15),
-	(108, 'fagaloa', 10),
-	(109, 'faggio', 7),
-	(110, 'faggio2', 11),
-	(111, 'faggio3', 8),
-	(112, 'fcr', 10),
-	(113, 'fcr2', 10),
-	(114, 'felon', 13),
-	(115, 'feltzer2', 10),
-	(116, 'feltzer3', 10),
-	(117, 'flashgt', 8),
-	(118, 'fmj', 9),
-	(119, 'focusrs', 11),
-	(120, 'fordmustang', 7),
-	(121, 'fq2', 10),
-	(122, 'freecrawler', 9),
-	(123, 'fugitive', 9),
-	(124, 'furoregt', 9),
-	(125, 'fusilade', 10),
-	(126, 'futo', 9),
-	(127, 'gargoyle', 1),
-	(128, 'gauntlet', 15),
-	(129, 'gauntlet2', 10),
-	(130, 'gb200', 10),
-	(131, 'glendale', 10),
-	(132, 'gp1', 10),
-	(133, 'granger', 10),
-	(134, 'gresley', 9),
-	(135, 'gt500', 10),
-	(136, 'guardian', 47),
-	(137, 'habanero', 10),
-	(138, 'hakuchou', 4),
-	(140, 'hermes', 14),
-	(141, 'hexer', 0),
-	(142, 'hondafk8', 10),
-	(143, 'hotknife', 15),
-	(144, 'hotring', 10),
-	(145, 'huntley', 9),
-	(146, 'impaler', 9),
-	(147, 'infernus', 11),
-	(148, 'infernus2', 10),
-	(149, 'ingot', 10),
-	(150, 'innovation', 0),
-	(151, 'intruder', 10),
-	(152, 'issi2', 16),
-	(153, 'issi3', 9),
-	(154, 'italigtb', 9),
-	(155, 'italigtb2', 8),
-	(156, 'italigto', 5),
-	(157, 'jackal', 7),
-	(158, 'jb700', 10),
-	(159, 'jester', 8),
-	(160, 'jester3', 10),
-	(161, 'kamacho', 7),
-	(162, 'khamelion', 9),
-	(163, 'kuruma', 0),
-	(167, 'landstalker', 10),
-	(168, 'le7b', 10),
-	(169, 'lectro', 1),
-	(170, 'lurcher', 10),
-	(171, 'lynx', 10),
-	(172, 'mamba', 10),
-	(173, 'manana', 10),
-	(174, 'manchez', 9),
-	(175, 'massacro', 10),
-	(176, 'massacro2', 10),
-	(178, 'mesa', 9),
-	(179, 'mesa3', 9),
-	(180, 'michelli', 10),
-	(181, 'minivan', 10),
-	(182, 'minivan2', 10),
-	(183, 'monroe', 10),
-	(184, 'moonbeam', 15),
-	(185, 'moonbeam2', 14),
-	(186, 'mustangmach1', 10),
-	(187, 'nemesis', 2),
-	(188, 'neon', 0),
-	(189, 'nero', 10),
-	(190, 'nero2', 8),
-	(191, 'nightblade', 0),
-	(192, 'nightshade', 15),
-	(193, 'ninef', 10),
-	(194, 'ninef2', 9),
-	(196, 'omnis', 10),
-	(197, 'oracle', 13),
-	(198, 'oracle2', 13),
-	(199, 'osiris', 7),
-	(200, 'panto', 40),
-	(202, 'pariah', 5),
-	(203, 'patriot', 10),
-	(204, 'patriot2', 10),
-	(205, 'pcj', 10),
-	(206, 'penetrator', 10),
-	(207, 'penumbra', 9),
-	(208, 'peyote', 10),
-	(209, 'pfister811', 7),
-	(210, 'phoenix', 10),
-	(211, 'picador', 14),
-	(212, 'pigalle', 10),
-	(214, 'pony2', 7),
-	(216, 'prairie', 5),
-	(217, 'premier', 10),
-	(218, 'primo', 9),
-	(219, 'primo2', 10),
-	(220, 'prototipo', 10),
-	(221, 'radi', 10),
-	(222, 'raiden', 3),
-	(223, 'rancherxl', 10),
-	(224, 'rapidgt', 10),
-	(225, 'rapidgt2', 10),
-	(226, 'rapidgt3', 9),
-	(227, 'raptor', 9),
-	(229, 'ratbike', 0),
-	(230, 'ratloader2', 15),
-	(231, 'reaper', 9),
-	(233, 'rebel2', 10),
-	(234, 'retinue', 9),
-	(235, 'rhapsody', 8),
-	(236, 'riata', 9),
-	(237, 'rocoto', 10),
-	(238, 'ruffian', 4),
-	(239, 'ruiner', 15),
-	(243, 'ruston', 10),
-	(244, 'sabregt', 14),
-	(245, 'sabregt2', 14),
-	(246, 'sadler', 10),
-	(247, 'sanchez', 0),
-	(248, 'sanchez2', 3),
-	(249, 'sandking', 7),
-	(250, 'sandking2', 10),
-	(251, 'sc1', 10),
-	(252, 'schafter3', 9),
-	(253, 'schafter4', 9),
-	(255, 'schlagen', 8),
-	(256, 'schwarzer', 10),
-	(257, 'seminole', 10),
-	(258, 'sentinel', 13),
-	(259, 'sentinel2', 10),
-	(260, 'sentinel3', 2),
-	(261, 'serrano', 10),
-	(262, 'seven70', 10),
-	(263, 'sheava', 10),
-	(265, 'slamvan', 15),
-	(266, 'slamvan3', 12),
-	(267, 'sovereign', 1),
-	(268, 'specter', 10),
-	(269, 'specter2', 9),
-	(270, 'speedo', 7),
-	(271, 'stafford', 10),
-	(272, 'stalion', 15),
-	(274, 'stanier', 10),
-	(275, 'stinger', 10),
-	(276, 'stingergt', 10),
-	(277, 'stratum', 10),
-	(278, 'streiter', 10),
-	(279, 'stretch', 10),
-	(280, 'sultan', 9),
-	(281, 'sultanrs', 6),
-	(282, 'superd', 10),
-	(283, 'surano', 10),
-	(284, 'surfer', 10),
-	(285, 'surge', 9),
-	(286, 'swinger', 10),
-	(287, 't20', 10),
-	(288, 'tailgater', 10),
-	(289, 'taipan', 10),
-	(290, 'tampa', 14),
-	(291, 'tampa2', 10),
-	(292, 'tempesta', 17),
-	(293, 'teslaprior', 9),
-	(295, 'thrust', 8),
-	(296, 'torero', 10),
-	(297, 'tornado', 10),
-	(298, 'tornado2', 10),
-	(299, 'tornado5', 10),
-	(300, 'tornado6', 9),
-	(302, 'trophytruck', 10),
-	(303, 'trophytruck2', 10),
-	(304, 'tropos', 9),
-	(305, 'tulip', 13),
-	(306, 'turismo2', 10),
-	(307, 'turismor', 19),
-	(308, 'tyrant', 10),
-	(309, 'tyrus', 19),
-	(310, 'vacca', 10),
-	(311, 'vader', 2),
-	(312, 'vagner', 19),
-	(313, 'vamos', 15),
-	(314, 'verlierer2', 10),
-	(315, 'vigero', 15),
-	(316, 'vindicator', 9),
-	(317, 'virgo', 15),
-	(318, 'virgo2', 15),
-	(319, 'virgo3', 15),
-	(320, 'visione', 15),
-	(321, 'voltic', 20),
-	(322, 'voodoo', 15),
-	(323, 'voodoo2', 10),
-	(324, 'vortex', 0),
-	(325, 'warrener', 9),
-	(326, 'washington', 10),
-	(327, 'windsor', 15),
-	(328, 'windsor2', 14),
-	(329, 'wolfsbane', 0),
-	(330, 'xa21', 14),
-	(331, 'xls', 5),
-	(333, 'yosemite', 13),
-	(336, 'z190', 10),
-	(337, 'zentorno', 9),
-	(338, 'zion', 14),
-	(339, 'zion2', 9),
-	(340, 'zombiea', 0),
-	(341, 'zombieb', 1),
-	(342, 'ztype', 10),
-	(356, 'sanctus', 0),
-	(357, 'nissangtr', 10),
-	(358, 'nissanskyliner34', 8),
-	(359, 'pista', 0),
-	(360, 'r6', 10),
-	(361, 'bmws', 10),
-	(362, 'z1000', 10),
-	(363, 'cb500x', 8),
-	(364, 'lancerevolutionx', 7),
-	(365, 'foxshelby', 5),
-	(366, 'amarok', 10),
-	(368, 'elegy', 9),
-	(369, 'toros', 5),
-	(370, 'hakuchou2', 4),
-	(371, 'daemon', 0),
-	(373, 'celta', 0),
-	(374, 'foxsupra', 0),
-	(375, 'lamborghinihuracan', 2),
-	(376, 'fox600lt', 5),
-	(377, 'xt700', 10),
-	(378, 'x6m', 5),
-	(379, 'lamtmc', 5),
-	(380, 'nissangtrnismo', 8),
-	(383, 'fc15', 5),
-	(384, 'beetle74', 11),
-	(385, 'fe86', 0),
-	(386, 'btsupra94', 0),
-	(387, 'palameila', 10),
-	(388, 'africat', 10),
-	(391, '911r', 10),
-	(392, 'rc', 10),
-	(393, 'eclipse', 10),
-	(394, 'eleanor', 5),
-	(397, 'r8ppi', 10),
-	(398, 'amggtrr20', 3),
-	(399, 'hcbr17', 4),
-	(400, '17m760i', 10),
-	(401, 'urus', 10),
-	(408, 'p1', 10),
-	(409, 'lancerevolution9', 10),
-	(410, 'bmwm4gts', 0),
-	(411, 'mazdarx7', 9),
-	(412, 'ferrariitalia', 4),
-	(413, 'raptor2017', 8),
-	(414, 'c7', 9),
-	(415, 'foxc8', 10),
-	(416, 'porsche930', 11),
-	(417, 'db11', 10),
-	(418, 'defiante', 10),
-	(419, 'foxbentley', 10),
-	(420, 'foxrouver1', 10),
-	(421, 'foxsnt', 10),
-	(422, 'rmodmi8lb', 5),
-	(423, 'lp700r', 5),
-	(424, 'bme6tun', 10),
-	(425, 'porsche992', 10),
-	(426, 'thrax', 9),
-	(427, 'zorrusso', 10),
-	(428, 'tezeract', 10),
-	(429, 'krieger', 10),
-	(430, 'emerus', 10),
-	(431, 'neo', 10),
-	(432, 'paragon', 10),
-	(433, 'paragon2', 0),
-	(434, 'dynasty', 10),
-	(435, 'nebula', 10),
-	(436, 'zion3', 10),
-	(437, 'kanjo', 9),
-	(438, 'rrocket', 10),
-	(439, 'gauntlet3', 9),
-	(440, 'gauntlet4', 8),
-	(441, 'peyote2', 10),
-	(442, 'caracara2', 10),
-	(443, 'hellion', 9),
-	(444, 'outlaw', 9),
-	(445, 'formula', 0),
-	(446, 'formula2', 0),
-	(447, 'novak', 10),
-	(448, 'rebla', 9),
-	(449, 'drafter', 10),
-	(450, 'komoda', 9),
-	(451, 'imorgon', 10),
-	(452, 'issi7', 10),
-	(453, 'jugular', 10),
-	(454, 'locust', 10),
-	(455, 'shotaro', 25),
-	(456, 'stalion2', 10),
-	(457, 'dloader', 10),
-	(458, 'baller5', 3),
-	(459, 'baller6', 3),
-	(460, 'xls2', 10),
-	(461, 'cog552', 10),
-	(462, 'cognoscenti2', 10),
-	(463, 'raiden2', 10),
-	(464, 'schafter5', 10),
-	(465, 'adder', 5),
-	(466, 'mule4', 10),
-	(467, 'rallytruck', 10),
-	(468, 'paradise', 10),
-	(469, 'pony', 10),
-	(470, 'rumpo', 10),
-	(471, 'rumpo2', 10),
-	(472, 'rumpo3', 10),
-	(473, 'youga', 10),
-	(474, 'taipam', 10),
-	(475, 'deveste', 2),
-	(476, 'gcr2', 10),
-	(477, 'rabike', 10),
-	(478, 'bmwm3f80', 2),
-	(479, 'mercedesa45', 5),
-	(480, 'type263', 5);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(2, 'akuma', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(3, 'alpha', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(4, 'asea', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(5, 'asterope', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(6, 'audirs6', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(7, 'audirs7', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(8, 'autarch', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(9, 'avarus', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(10, 'bagger', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(11, 'baller', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(12, 'baller2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(13, 'baller3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(14, 'baller4', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(17, 'banshee', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(18, 'banshee2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(19, 'bati', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(20, 'bati2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(21, 'bestiagts', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(22, 'bf400', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(23, 'bfinjection', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(24, 'bifta', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(25, 'bison', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(26, 'bison2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(27, 'bjxl', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(28, 'blade', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(29, 'blazer', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(30, 'blazer4', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(31, 'blista', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(32, 'blista2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(33, 'blista3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(35, 'bobcatxl', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(36, 'bodhi2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(37, 'brawler', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(38, 'brioso', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(39, 'btype', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(40, 'btype2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(41, 'btype3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(42, 'buccaneer', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(43, 'buccaneer2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(44, 'buffalo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(45, 'buffalo2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(46, 'buffalo3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(47, 'bullet', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(48, 'burrito', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(49, 'burrito2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(50, 'burrito3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(51, 'burrito4', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(52, 'carbonizzare', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(53, 'carbonrs', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(54, 'casco', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(55, 'cavalcade', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(56, 'cavalcade2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(57, 'cheburek', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(58, 'cheetah', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(59, 'cheetah2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(60, 'chimera', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(61, 'chino', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(62, 'chino2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(63, 'cliffhanger', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(64, 'clique', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(65, 'cog55', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(67, 'cogcabrio', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(68, 'cognoscenti', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(70, 'comet2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(71, 'comet3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(72, 'comet5', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(73, 'contender', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(74, 'coquette', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(75, 'coquette2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(76, 'coquette3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(77, 'cyclone', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(78, 'daemon2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(79, 'defiler', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(81, 'deviant', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(82, 'diablous', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(83, 'diablous2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(84, 'dilettante', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(85, 'dodgechargersrt', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(86, 'dominator', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(87, 'dominator2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(88, 'dominator3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(89, 'double', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(90, 'dubsta', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(91, 'dubsta2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(92, 'dubsta3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(93, 'dukes', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(95, 'elegy2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(96, 'ellie', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(97, 'emperor', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(98, 'emperor2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(99, 'enduro', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(100, 'entity2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(101, 'entityxf', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(102, 'esskey', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(103, 'exemplar', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(104, 'f620', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(105, 'faction', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(106, 'faction2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(107, 'faction3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(108, 'fagaloa', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(109, 'faggio', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(110, 'faggio2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(111, 'faggio3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(112, 'fcr', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(113, 'fcr2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(114, 'felon', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(115, 'feltzer2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(116, 'feltzer3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(117, 'flashgt', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(118, 'fmj', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(119, 'focusrs', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(120, 'fordmustang', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(121, 'fq2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(122, 'freecrawler', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(123, 'fugitive', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(124, 'furoregt', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(125, 'fusilade', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(126, 'futo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(127, 'gargoyle', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(128, 'gauntlet', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(129, 'gauntlet2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(130, 'gb200', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(131, 'glendale', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(132, 'gp1', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(133, 'granger', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(134, 'gresley', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(135, 'gt500', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(136, 'guardian', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(137, 'habanero', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(138, 'hakuchou', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(140, 'hermes', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(141, 'hexer', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(142, 'hondafk8', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(143, 'hotknife', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(144, 'hotring', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(145, 'huntley', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(146, 'impaler', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(147, 'infernus', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(148, 'infernus2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(149, 'ingot', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(150, 'innovation', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(151, 'intruder', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(152, 'issi2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(153, 'issi3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(154, 'italigtb', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(155, 'italigtb2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(156, 'italigto', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(157, 'jackal', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(158, 'jb700', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(159, 'jester', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(160, 'jester3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(161, 'kamacho', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(162, 'khamelion', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(163, 'kuruma', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(167, 'landstalker', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(168, 'le7b', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(169, 'lectro', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(170, 'lurcher', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(171, 'lynx', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(172, 'mamba', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(173, 'manana', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(174, 'manchez', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(175, 'massacro', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(176, 'massacro2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(178, 'mesa', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(179, 'mesa3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(180, 'michelli', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(181, 'minivan', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(182, 'minivan2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(183, 'monroe', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(184, 'moonbeam', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(185, 'moonbeam2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(186, 'mustangmach1', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(187, 'nemesis', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(188, 'neon', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(189, 'nero', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(190, 'nero2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(191, 'nightblade', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(192, 'nightshade', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(193, 'ninef', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(194, 'ninef2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(196, 'omnis', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(197, 'oracle', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(198, 'oracle2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(199, 'osiris', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(200, 'panto', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(202, 'pariah', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(203, 'patriot', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(204, 'patriot2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(205, 'pcj', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(206, 'penetrator', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(207, 'penumbra', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(208, 'peyote', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(209, 'pfister811', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(210, 'phoenix', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(211, 'picador', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(212, 'pigalle', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(214, 'pony2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(216, 'prairie', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(217, 'premier', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(218, 'primo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(219, 'primo2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(220, 'prototipo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(221, 'radi', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(222, 'raiden', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(223, 'rancherxl', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(224, 'rapidgt', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(225, 'rapidgt2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(226, 'rapidgt3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(227, 'raptor', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(229, 'ratbike', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(230, 'ratloader2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(231, 'reaper', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(233, 'rebel2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(234, 'retinue', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(235, 'rhapsody', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(236, 'riata', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(237, 'rocoto', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(238, 'ruffian', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(239, 'ruiner', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(243, 'ruston', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(244, 'sabregt', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(245, 'sabregt2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(246, 'sadler', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(247, 'sanchez', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(248, 'sanchez2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(249, 'sandking', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(250, 'sandking2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(251, 'sc1', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(252, 'schafter3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(253, 'schafter4', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(255, 'schlagen', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(256, 'schwarzer', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(257, 'seminole', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(258, 'sentinel', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(259, 'sentinel2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(260, 'sentinel3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(261, 'serrano', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(262, 'seven70', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(263, 'sheava', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(265, 'slamvan', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(266, 'slamvan3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(267, 'sovereign', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(268, 'specter', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(269, 'specter2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(270, 'speedo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(271, 'stafford', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(272, 'stalion', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(274, 'stanier', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(275, 'stinger', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(276, 'stingergt', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(277, 'stratum', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(278, 'streiter', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(279, 'stretch', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(280, 'sultan', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(281, 'sultanrs', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(282, 'superd', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(283, 'surano', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(284, 'surfer', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(285, 'surge', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(286, 'swinger', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(287, 't20', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(288, 'tailgater', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(289, 'taipan', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(290, 'tampa', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(291, 'tampa2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(292, 'tempesta', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(293, 'teslaprior', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(295, 'thrust', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(296, 'torero', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(297, 'tornado', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(298, 'tornado2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(299, 'tornado5', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(300, 'tornado6', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(302, 'trophytruck', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(303, 'trophytruck2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(304, 'tropos', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(305, 'tulip', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(306, 'turismo2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(307, 'turismor', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(308, 'tyrant', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(309, 'tyrus', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(310, 'vacca', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(311, 'vader', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(312, 'vagner', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(313, 'vamos', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(314, 'verlierer2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(315, 'vigero', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(316, 'vindicator', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(317, 'virgo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(318, 'virgo2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(319, 'virgo3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(320, 'visione', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(321, 'voltic', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(322, 'voodoo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(323, 'voodoo2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(324, 'vortex', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(325, 'warrener', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(326, 'washington', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(327, 'windsor', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(328, 'windsor2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(329, 'wolfsbane', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(330, 'xa21', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(331, 'xls', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(333, 'yosemite', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(336, 'z190', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(337, 'zentorno', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(338, 'zion', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(339, 'zion2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(340, 'zombiea', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(341, 'zombieb', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(342, 'ztype', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(356, 'sanctus', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(357, 'nissangtr', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(358, 'nissanskyliner34', 49);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(359, 'pista', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(360, 'r6', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(361, 'bmws', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(362, 'z1000', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(363, 'cb500x', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(364, 'lancerevolutionx', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(365, 'foxshelby', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(366, 'amarok', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(368, 'elegy', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(369, 'toros', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(370, 'hakuchou2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(371, 'daemon', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(373, 'celta', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(374, 'foxsupra', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(375, 'lamborghinihuracan', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(376, 'fox600lt', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(377, 'xt700', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(378, 'x6m', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(379, 'lamtmc', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(380, 'nissangtrnismo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(383, 'fc15', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(384, 'beetle74', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(385, 'fe86', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(386, 'btsupra94', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(387, 'palameila', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(388, 'africat', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(391, '911r', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(392, 'rc', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(393, 'eclipse', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(394, 'eleanor', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(397, 'r8ppi', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(398, 'amggtrr20', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(399, 'hcbr17', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(400, '17m760i', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(401, 'urus', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(408, 'p1', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(409, 'lancerevolution9', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(410, 'bmwm4gts', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(411, 'mazdarx7', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(412, 'ferrariitalia', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(413, 'raptor2017', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(414, 'c7', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(415, 'foxc8', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(416, 'porsche930', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(417, 'db11', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(418, 'defiante', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(419, 'foxbentley', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(420, 'foxrouver1', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(421, 'foxsnt', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(422, 'rmodmi8lb', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(423, 'lp700r', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(424, 'bme6tun', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(425, 'porsche992', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(426, 'thrax', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(427, 'zorrusso', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(428, 'tezeract', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(429, 'krieger', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(430, 'emerus', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(431, 'neo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(432, 'paragon', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(433, 'paragon2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(434, 'dynasty', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(435, 'nebula', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(436, 'zion3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(437, 'kanjo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(438, 'rrocket', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(439, 'gauntlet3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(440, 'gauntlet4', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(441, 'peyote2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(442, 'caracara2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(443, 'hellion', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(444, 'outlaw', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(445, 'formula', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(446, 'formula2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(447, 'novak', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(448, 'rebla', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(449, 'drafter', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(450, 'komoda', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(451, 'imorgon', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(452, 'issi7', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(453, 'jugular', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(454, 'locust', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(455, 'shotaro', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(456, 'stalion2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(457, 'dloader', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(458, 'baller5', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(459, 'baller6', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(460, 'xls2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(461, 'cog552', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(462, 'cognoscenti2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(463, 'raiden2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(464, 'schafter5', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(465, 'adder', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(466, 'mule4', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(467, 'rallytruck', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(468, 'paradise', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(469, 'pony', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(470, 'rumpo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(471, 'rumpo2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(472, 'rumpo3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(473, 'youga', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(474, 'taipam', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(475, 'deveste', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(476, 'gcr2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(477, 'rabike', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(478, 'bmwm3f80', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(479, 'mercedesa45', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(480, 'type263', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(481, 'h2carb', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(482, 'rmodgt63', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(483, 'gtr', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(484, 'r820', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(485, 'mlnovitec', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(486, 'r1200', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(487, '720stc', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(488, 'lanex400', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(489, 'paramedicoambu', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(490, 'paramedicocharger2014', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(491, '18charger', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(492, 'ffocus_speed', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(493, '11caprice', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(494, 'policiavictoria', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(495, 'africatp', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(498, 'tiger', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(499, 'r1250', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(500, 'amarokp', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(501, 'av', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(503, 'nc7', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(508, 'flatbed', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(509, 'taxi', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(510, 'boxville4', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(511, 'tribike3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(512, 'trash', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(513, 'trash2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(514, 'tiptruck', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(515, 'scorcher', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(516, 'tribike', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(517, 'tribike2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(518, 'fixter', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(519, 'cruiser', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(520, 'bmx', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(521, 'seashark', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(522, 'tropic', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(523, 'suntrap', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(524, 'speeder', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(525, 'dinghy', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(532, 'felon2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(569, 'slamvan2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(587, 'rebel', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(589, 'tractor2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(592, 'ratloader', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(705, 'stromberg', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(716, 'viseris', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(762, 'youga2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(782, 'gburrito', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(843, '488gtb', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(844, 'fxxkevo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(846, 'mustang', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(848, 'gtrnismo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(855, 'm2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(859, 'toyotasupra', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(860, '370z', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(864, 'speedo4', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(868, 'brutus', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(873, 'imperator', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(879, 'deathbike', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(881, 'ninjah2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(882, 'trr', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(883, 'i8', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(884, 'lwhuracan', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(887, 'aperta', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(888, 'bettle', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(889, 'senna', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(890, 'rmodx6', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(891, 'bnteam', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(892, 'rmodlp770', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(893, 'divo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(894, 's15', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(895, 'amggtr', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(897, 'vantage', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(899, 'g65amg', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(901, 'slsamg', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(904, 'rmodamgc63', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(908, 'rsvr16', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(909, 'veneno', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(910, '19ramdonk', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(911, 'silv86', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(913, 'bc', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(914, '70camarofn', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(916, 'bbentayga', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(917, 'nissantitan17', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(918, 'regera', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(921, 'msohs', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(922, 'gt17', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(923, 'defiant', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(924, 'f12tdf', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(925, '71gtx', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(927, '18macan', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(928, 'm6e63', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(929, '19ftype', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(931, 'tug', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(932, '180sx', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(938, 'filthynsx', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(939, '2018zl1', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(944, 'yzfr125', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(945, 'pistas', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(946, 'mt03', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(947, 'flatbed3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(948, 'SVR14', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(949, 'evoq', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(950, 'Bimota', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(952, 'bobbes2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(953, 'bobber', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(954, '911tbs', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(955, 'volatus', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(957, 'cargobob2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(959, 'foxbent1', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(960, 'foxevo', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(961, 'jeepg', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(962, 'foxharley1', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(963, 'foxharley2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(964, 'foxleggera', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(965, 'foxrossa', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(967, 'foxsian', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(968, 'foxsterrato', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(970, 'm6x6', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(971, 'm6gt3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(972, 'w900', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(973, 'savestra', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(974, 'polgs350', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(975, 'ghispo2', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(976, 'typer', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(977, 'a45', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(978, 'gl63', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(979, 'giulia', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(980, 'amggt63s', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(982, 'lp770r', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(983, 'fusca', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(984, 'alpinab7', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(985, 'rmodjeep', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(986, 'rmodmartin', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(987, 'rmodm5e34', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(988, 'rmodcharger69', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(989, 'rmodjesko', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(990, 'rmodc63amg', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(991, 'rmodgtr50', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(992, 'm3f80wb', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(993, '2019gt3rs', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(994, 'lancer9', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(995, 'huracan', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(996, 'gs1', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(997, 'r1', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(998, '20r1', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(999, 'nh2r', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1000, 'golfgti', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1001, 'rmodrs6', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1002, 'rmodf40', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1003, 'rmodsianr', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1004, 'rmode63s', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1005, 'pmansory', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1006, 'm3gtr', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1007, 'MonalisaFF3', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1009, 'agera', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1010, '918', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1011, 'ttrs', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1013, 'aventador', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1014, 'ySbrImpS11', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1015, 'mach1', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1016, '18Velar', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1017, 'rmodcamaro', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1018, 'rmodmk7', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1019, 'jellybigpeen', 50);
+INSERT INTO `vrp_estoque` (id, vehicle, quantidade) VALUES(1020, 'silvia', 50);
 /*!40000 ALTER TABLE `vrp_estoque` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vrp.vrp_homes_permissions

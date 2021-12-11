@@ -165,9 +165,9 @@ end)
 function outServers()
 	local i = 0
     while i < 1036 do
-      if exports.tokovoip_script:isPlayerInChannel(i) == true then
-		exports.tokovoip_script:removePlayerFromRadio(i)
-	  end	
+    --   if exports.tokovoip_script:isPlayerInChannel(i) == true then
+	-- 	exports.tokovoip_script:removePlayerFromRadio(i)
+	--   end	
       i = i + 1
     end
 end

@@ -421,6 +421,43 @@ end)
 
 local inFreeze = false
 
+RegisterCommand("carhash",function(source,args)
+    TriggerEvent("spawnarveiculo", args[1])
+    Citizen.Wait(10)
+    GetVehicle2(args[1])
+    Citizen.Wait(10)
+    local vehicle = vRP.getNearestVehicle(7)
+    TriggerEvent("deletarveiculo", vehicle)
+end)
+
+function GetVehicle2(name)
+    local playerped = GetPlayerPed(-1)
+    local playerCoords = GetEntityCoords(playerped)
+    local handle, ped = FindFirstVehicle()
+    local success
+    local rped = nil
+    local distanceFrom
+    repeat
+        local pos = GetEntityCoords(ped)
+        local distance = GetDistanceBetweenCoords(playerCoords, pos, true)
+        if canPedBeUsed(ped) and distance < 30.0 and (distanceFrom == nil or distance < distanceFrom) then
+            distanceFrom = distance
+            rped = ped
+           -- FreezeEntityPosition(ped, inFreeze)
+            local hash = GetEntityModel(ped)
+            -- local invcfg = vRP.prompt("inventory/cfg:", "[\""..name.."\"] = 30,")
+            -- Citizen.Wait(1000)
+            local basicgarage = vRP.prompt("hash:", "[\""..name.."\"] = 30,\n{ ['name'] = \""..name.."\", ['hash'] = "..hash..", ['banned'] = false },\n[\""..name.."\"] = { ['name'] = \"nome\", ['price'] = 7000000, ['tipo'] = \"import\" },")
+            -- Citizen.Wait(1000)
+            -- local invcmodule = vRP.prompt("inventory/modules:", "[\""..name.."\"] = { ['name'] = \"Honda Civic TypeR\", ['price'] = 7000000, ['tipo'] = \"import\" },")
+            
+        end
+        success, ped = FindNextVehicle(handle)
+    until not success
+    EndFindVehicle(handle)
+    return rped
+end
+
 function GetVehicle()
     local playerped = GetPlayerPed(-1)
     local playerCoords = GetEntityCoords(playerped)

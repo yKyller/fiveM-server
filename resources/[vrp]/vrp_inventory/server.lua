@@ -460,7 +460,7 @@ function vRPN.useItem(itemName,type,ramount)
 					TriggerClientEvent("Notify",source,"aviso","Número insuficiente de policiais no momento para iniciar o roubo.")
 					return true
 				end
-				if vRP.hasPermission(user_id,"policia.permissao") then
+				if vRP.hasPermission(user_id,"policia.permissao") or vRP.hasPermission(user_id,"ceo.permissao") then
 					TriggerEvent("setPlateEveryone",placa)
 					vGARAGE.vehicleClientLock(-1,vnetid,lock)
 					TriggerClientEvent("vrp_sound:source",source,'lock',0.5)
@@ -468,7 +468,7 @@ function vRPN.useItem(itemName,type,ramount)
 				end
 				if vRP.getInventoryItemAmount(user_id,"lockpick") >= 1 and vRP.tryGetInventoryItem(user_id,"lockpick",1) and vehicle then
 					actived[user_id] = true
-					if vRP.hasPermission(user_id,"polpar.permissao") then
+					if vRP.hasPermission(user_id,"polpar.permissao") or vRP.hasPermission(user_id,"pvp.permissao") then
 						actived[user_id] = nil
 						TriggerEvent("setPlateEveryone",placa)
 						vGARAGE.vehicleClientLock(-1,vnetid,lock)
@@ -513,7 +513,7 @@ function vRPN.useItem(itemName,type,ramount)
 					TriggerClientEvent("Notify",source,"aviso","Número insuficiente de policiais no momento para iniciar o roubo.")
 					return true
 				end
-				if vRP.hasPermission(user_id,"policia.permissao") then
+				if vRP.hasPermission(user_id,"policia.permissao") or vRP.hasPermission(user_id,"ceo.permissao") then
 					TriggerEvent("setPlateEveryone",placa)
 					vGARAGE.vehicleClientLock(-1,vnetid,lock)
 					TriggerClientEvent("vrp_sound:source",source,'lock',0.5)
@@ -521,7 +521,7 @@ function vRPN.useItem(itemName,type,ramount)
 				end
 				if vRP.getInventoryItemAmount(user_id,"masterpick") >= 1 and vRP.tryGetInventoryItem(user_id,"masterpick",1) and vehicle then
 					actived[user_id] = true
-					if vRP.hasPermission(user_id,"polpar.permissao") then
+					if vRP.hasPermission(user_id,"polpar.permissao") or vRP.hasPermission(user_id,"pvp.permissao") then
 						actived[user_id] = nil
 						TriggerEvent("setPlateEveryone",placa)
 						vGARAGE.vehicleClientLock(-1,vnetid,lock)
