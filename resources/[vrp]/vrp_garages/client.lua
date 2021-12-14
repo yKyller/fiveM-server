@@ -1183,7 +1183,10 @@ function src.spawnVehicle(vehname,vehengine,vehbody,vehfuel,custom)
 			end
 
 			if checkslot ~= -1 then
-				local nveh = CreateVehicle(mhash,spawn[pointspawn][checkslot].x,spawn[pointspawn][checkslot].y,spawn[pointspawn][checkslot].z+0.5,spawn[pointspawn][checkslot].h,true,false)
+				-- return print(mhash)
+				-- local nveh = CreateVehicle(mhash,spawn[pointspawn][checkslot].x,spawn[pointspawn][checkslot].y,spawn[pointspawn][checkslot].z+0.5,spawn[pointspawn][checkslot].h,true,false)
+				local ped = PlayerPedId()
+				local nveh = CreateVehicle(mhash,GetEntityCoords(ped),GetEntityHeading(ped),true,false)
 
 				SetVehicleIsStolen(nveh,false)
 				SetVehicleNeedsToBeHotwired(nveh,false)
@@ -1202,7 +1205,9 @@ function src.spawnVehicle(vehname,vehengine,vehbody,vehfuel,custom)
 				vehicle[vehname] = true
 				gps[vehname] = true
 
+				SetPedIntoVehicle(ped,nveh,-1)
 				SetModelAsNoLongerNeeded(mhash)
+				ToggleActionMenu()
 
 				return true,VehToNet(nveh)
 			end
@@ -1414,11 +1419,11 @@ RegisterCommand('garagem',function(source,args,rawCmd)
 		local ped = PlayerPedId()
 		if not IsPedInAnyVehicle(ped) then
 			local x,y,z = table.unpack(GetEntityCoords(ped))
-			for k,v in pairs(spawn) do
-				if Vdist(x,y,z,v.x,v.y,v.z) <= 5 then
-					vSERVER.returnHouses(v.name,k)
-				end
-			end
+			-- for k,v in pairs(spawn) do
+			-- 	if Vdist(x,y,z,v.x,v.y,v.z) <= 5 then
+			vSERVER.returnHouses("Garagem",1)
+			-- 	end
+			-- end
 		end
 	end
 end)

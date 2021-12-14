@@ -14,16 +14,10 @@
         <title>Load</title>
     </head>
     <body>
-        <!-- <video autoplay muted loop id="myVideo">
-            <source src="assets/img/video.mp4" type="video/mp4">
-        </video> -->
-        <!-- <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
-              <iframe frameborder="1" height="100%" width="100%" 
-                src="https://youtube.com/embed/xr7kT41rJyA?autoplay=1&controls=0&showinfo=0&autohide=1&mute=1">
-              </iframe>
-         </div> -->
+        <video autoplay loop id="video-background" muted plays-inline>
+            <source src="assets/img/video.webm" type="video/webm">
+        </video>
         <!-- <div><img class="filtro" src="assets/img/video.gif"/></div> -->
-        <div><img class="filtro" src="assets/img/video.gif"/></div>
         <div id='player' class="player"></div>
         <div id="preloader"></div>
         <!-- <center><img class="logo2" src="assets/img/logo.png" style="max-width: 400px;" /></center> -->
@@ -36,13 +30,13 @@
         <script src='http://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js'></script>
         <script type="text/javascript">
             var config = {    
-                musicas: ["juraNan.mp3", "falaTropaComandoVermelho.mp3", "hylander.mp3", "oFopiVaiTePegar.mp3", "timeDoFlamengo.mp3", "180naRetaE120naCurva.mp3", "montagemRaveDoMandela.mp3"],
-                volume: [0.5, 0.12, 0.12, 0.08, 0.12, 0.06, 0.07]
+                musicas: ["juraNan.mp3", "falaTropaComandoVermelho.mp3", "hylander.mp3", "oFopiVaiTePegar.mp3", "timeDoFlamengo.mp3", "180naRetaE120naCurva.mp3", "montagemRaveDoMandela.mp3", "funkNatal.mp3"],
+                volume: [0.5, 0.12, 0.12, 0.08, 0.12, 0.06, 0.07, 0.12]
             }
             var music = document.getElementById("loading-music");
             var video = document.getElementById("myVideo");
             var mIdx = Math.floor(Math.random() * (config.musicas.length));
-            music.src = config.musicas[mIdx];
+            music.src = config.musicas[7];
             music.volume = config.volume[mIdx];
             music.play();
             // video.play();

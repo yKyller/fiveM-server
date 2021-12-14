@@ -41,7 +41,7 @@ body {
 .circle-image2 {
   max-width: 100px;
   max-height: 100px;
-  opacity: 2;
+  opacity: 10;
 }
 
 .animated {
